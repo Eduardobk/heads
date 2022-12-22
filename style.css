@@ -101,10 +101,9 @@ nav ul li a:hover {
 }
 
 .meio{
-	display: flexbox;
+	display: inline-block;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .meio img{
@@ -117,41 +116,52 @@ nav ul li a:hover {
 }
 
 .meio h1 {
+	font-size: 6em;
 	position: relative;
 	margin-left: 20px;
+	padding-top: 50px;
+	color: #ffffff;
+}
+
+.meio h2 {
+	font-size: 2em;
+	position: relative;
+	margin-left: 10px;
 	padding-top: 30px;
+	padding-bottom: 1.4em;
 	color: #ffffff;
 }
 
 .info1{
 	display: inline-block;
 	line-height: 1.5em;
-	width: 250px;
+	width: 350px;
 	position: relative;	
 	margin-left: 20px;
 	color: #ffffff;
 	justify-content: center;
+	margin-left: 50px;
 	
 	
 }
 .info2{
 	display: inline-block;
 	line-height: 1.5em;
-	width: 250px;
-	position: relative;
-	
+	width: 350px;
+	position: relative;	
 	margin-left: 20px;
 	color: #ffffff;
+	margin-left: 50px;
 	
 }
 .info3{
 	display: inline-block;
 	line-height: 1.5em;	
-	width: 250px;
-	position: relative;
-	
+	width: 350px;
+	position: relative;	
 	margin-left: 20px;
 	color: #ffffff;
+	margin-left: 50px;
 	margin-bottom: 40em;
 	
 }
