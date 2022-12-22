@@ -95,24 +95,45 @@ nav ul li a:hover {
 	color: white;
 }
 
-.meio {
-	position: relative;
-	margin-top: 40em;
+.meio img{
+	height: 100vh;
+	position: absolute;
 	margin-bottom: 40em;
+	
 }
 
-.meio h1{
-	position: absolute;
+.meio h1 {
+	position: relative;
+	margin-top: 10px;
+	margin-top: 20px;
+	padding-top: 2px;
+	color: #ffffff;
+}
+
+.info1{
+	position: relative;
 	padding-top: 10px;
 	margin-top: 2em;
 	margin-bottom: 2em;
 	color: #3f1515;
+	
 }
-
-.info1 {
+.info2{
 	position: relative;
-	opacity: 50%;
-	margin-top: 10em;
+	padding-top: 10px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: #3f1515;
+	
+}
+.info3{
+	position: relative;
+	padding-top: 10px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: #3f1515;
+	margin-bottom: 40em;
+	
 }
 
 h1 {
