@@ -13,6 +13,11 @@
     background-position: center;
 }
 
+nav img{
+	padding-left: 0px;
+	margin-left: 0px;
+	width: 14vw;
+}
 nav{
 	display: flex;
 	align-items: center;
