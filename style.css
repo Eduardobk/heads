@@ -183,6 +183,13 @@ footer h1 {
 	text-decoration: none;
 }
 
+.rodape{
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 12px;	
+	color: #ffffff;
+}
+
 .social a img {
 
 	height: 2em;
