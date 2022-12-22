@@ -100,10 +100,19 @@ nav ul li a:hover {
 	margin-bottom: 40em;
 }
 
+.meio{
+	display: flexbox;
+	justify-content: center;
+	align-items: center;
+
+}
+
 .meio img{
+	display: inline-block;	
 	height: 100vh;
 	position: absolute;
 	margin-bottom: 40em;
+	
 	
 }
 
@@ -116,31 +125,32 @@ nav ul li a:hover {
 
 .info1{
 	display: inline-block;
-	width: 200px;
-	position: relative;
-	padding: 10px;
+	line-height: 1.5em;
+	width: 250px;
+	position: relative;	
 	margin-left: 20px;
-	margin-bottom: 2em;
 	color: #ffffff;
+	justify-content: center;
+	
 	
 }
 .info2{
 	display: inline-block;
-	width: 200px;
+	line-height: 1.5em;
+	width: 250px;
 	position: relative;
-	padding: 10px;
+	
 	margin-left: 20px;
-	margin-bottom: 2em;
 	color: #ffffff;
 	
 }
 .info3{
 	display: inline-block;
-	width: 200px;
+	line-height: 1.5em;	
+	width: 250px;
 	position: relative;
-	padding: 10px;
+	
 	margin-left: 20px;
-	margin-bottom: 2em;
 	color: #ffffff;
 	margin-bottom: 40em;
 	
