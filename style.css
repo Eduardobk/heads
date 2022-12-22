@@ -32,18 +32,18 @@ nav{
     margin-left: 60%;
     padding-top: 16%;
 }
-<<<<<<< HEAD
+
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
 	padding: 10px  25px;
-=======
+}
 
 nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
->>>>>>> ed7b72576232e6301cefc2adee234ba38b55d58c
+
 }
 
 nav ul li a {
@@ -52,7 +52,7 @@ nav ul li a {
     font-weight: bold;
     text-transform: capitalize;
 }
-<<<<<<< HEAD
+
 nav ul li a:hover{
 	color: #3B0E60;
 	transition: .4s;
@@ -65,8 +65,7 @@ nav ul li a:hover{
 	font-weight: bold;
 	padding: 10px 25px;
 	border-radius: 30px;
-	transition: transform .4s; 
-=======
+	transition: transform .4s;
 
 nav ul li a:hover {
     color: #f9004d;
@@ -82,7 +81,6 @@ nav ul li a:hover {
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
->>>>>>> ed7b72576232e6301cefc2adee234ba38b55d58c
 }
 
 .btn:hover {
@@ -158,7 +156,7 @@ h1 {
     right: 6px;
 }
 
-.social a img{
+.social a img {
 	height: 2em;
 	margin-top: 2em;
 	margin-left: 1em;
