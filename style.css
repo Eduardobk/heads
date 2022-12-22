@@ -66,6 +66,7 @@ nav ul li a:hover{
 	padding: 10px 25px;
 	border-radius: 30px;
 	transition: transform .4s;
+}
 
 nav ul li a:hover {
     color: #f9004d;
@@ -99,8 +100,6 @@ h1 {
     margin: 20px 0px 20px;
     font-size: 65px;
 }
-
-<<<<<<< HEAD
 .botao form{
 	width: 150px;
 	max-width: 100%;
@@ -125,12 +124,12 @@ h1 {
 	box-shadow: 0px 0px 5px #6D087C, 0px 0px 15px #6D087C;
 	top: 6px;
 	right: 6px; 
-=======
+}
 .botao form {
     width: 250px;
     max-width: 100%;
     position: relative;
->>>>>>> ed7b72576232e6301cefc2adee234ba38b55d58c
+
 }
 
 .botao form input:first-child {
@@ -160,4 +159,5 @@ h1 {
 	height: 2em;
 	margin-top: 2em;
 	margin-left: 1em;
+	margin-bottom: 2em;
 }
