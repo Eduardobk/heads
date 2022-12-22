@@ -183,15 +183,22 @@ footer h1 {
 	text-decoration: none;
 }
 
+.endereco{
+	margin-top: 150px;
+	text-align: center;
+	font-size: 18px;	
+	color: #ffffff;
+
+}
+
 .rodape{
-	margin-bottom: 10px;
+	margin-top: 50px;
 	text-align: center;
 	font-size: 12px;	
 	color: #ffffff;
 }
 
 .social a img {
-
 	height: 2em;
 	margin-top: 2em;
 	margin-left: 40px;
