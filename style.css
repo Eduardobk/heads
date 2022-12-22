@@ -95,6 +95,11 @@ nav ul li a:hover {
 	color: white;
 }
 
+.sessao-2 {
+	opacity: 30;
+	margin-bottom: 40em;
+}
+
 .meio img{
 	height: 100vh;
 	position: absolute;
@@ -104,34 +109,39 @@ nav ul li a:hover {
 
 .meio h1 {
 	position: relative;
-	margin-top: 10px;
-	margin-top: 20px;
-	padding-top: 2px;
+	margin-left: 20px;
+	padding-top: 30px;
 	color: #ffffff;
 }
 
 .info1{
+	display: inline-block;
+	width: 200px;
 	position: relative;
-	padding-top: 10px;
-	margin-top: 2em;
+	padding: 10px;
+	margin-left: 20px;
 	margin-bottom: 2em;
-	color: #3f1515;
+	color: #ffffff;
 	
 }
 .info2{
+	display: inline-block;
+	width: 200px;
 	position: relative;
-	padding-top: 10px;
-	margin-top: 2em;
+	padding: 10px;
+	margin-left: 20px;
 	margin-bottom: 2em;
-	color: #3f1515;
+	color: #ffffff;
 	
 }
 .info3{
+	display: inline-block;
+	width: 200px;
 	position: relative;
-	padding-top: 10px;
-	margin-top: 2em;
+	padding: 10px;
+	margin-left: 20px;
 	margin-bottom: 2em;
-	color: #3f1515;
+	color: #ffffff;
 	margin-bottom: 40em;
 	
 }
