@@ -3,6 +3,7 @@
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
+	
 }
 .TUDO{
 	height: 100vh;
@@ -12,6 +13,12 @@
 	background-position: center;
 }
 
+nav img {
+	display: inline;
+	height: 2em;
+	padding-left: 20px;
+	align-items: flex-start;
+}
 nav{
 	display: flex;
 	align-items: center;
@@ -61,6 +68,7 @@ nav ul li a:hover{
 	left:8%;
 	transform: translateY(-50%);
 	color: white;
+	font-weight: bold;
 }
 h1{
 	color: white;
