@@ -1,161 +1,70 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
-}
-
-.TUDO {
-    height: 100vh;
-    width: 100%;
-    background-image: url(../heads/imagem/head.png);
-    background-size: cover;
+body {
+    display: inline-block;
+    background-color: blanchedalmond;
+    font-family: cursive;
+    background-image: url(img/lua-removebg-preview.png);
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
 }
 
-nav img {
-    padding-left: 0px;
-    margin-left: 0px;
-    width: 14vw;
+.titulo {
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    align-items: end;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
 }
 
-nav {
-    display: flex;
+.links {
+    list-style-type: none;
+    color: blanchedalmond;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
 }
 
-.img-gadgets {
-    position: absolute;
-    margin-left: 60%;
-    padding-top: 16%;
-}
-
-HEAD nav ul li {
+a:link {
+    font-size: 25px;
+    background-color: rgba(75, 74, 74, 0.721);
+    display: flex;
+    justify-content: center;
+    outline: none;
+    gap: 10px;
+    border-radius: 45px;
     list-style-type: none;
-    display: inline-block;
-    padding: 10px 25px;
+    color: rgba(255, 235, 194, 0.543);
 }
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 25px;
+a:hover {
+    color: rgba(0, 0, 0, 0.58);
+    background-color: rgba(255, 193, 122, 0.476);
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
+@media(max-width: 800px) {
+    .link {
+        min-width: 100%;
+    }
+    links {
+        height: 450%;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
-nav ul li a:hover {
-    color: #3B0E60;
-    transition: .4s;
+.presetlua {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 }
 
-.btn {
-    background-color: #3B0E60;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
-}
-
-nav ul li a:hover {
-    color: #f9004d;
-    transition: .4s;
-}
-
-.btn {
-    background-color: #f9004d;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
-}
-
-.btn:hover {
-    transform: scale(1.2);
-}
-
-.content {
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    color: white;
-}
-
-h1 {
-    color: white;
-    margin: 20px 0px 20px;
-    font-size: 65px;
-}
-
-.botao form {
-    width: 150px;
-    max-width: 100%;
-    position: relative;
-}
-
-.botao form input:first-child {
-    display: inline-block;
-    width: 100%;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid #3B0E60;
-    border-radius: 30px;
-}
-
-.botao form input:last-child {
-    position: absolute;
-    display: inline-block;
-    outline: none;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: #3B0E60;
-    color: white;
-    box-shadow: 0px 0px 5px #6D087C, 0px 0px 15px #6D087C;
-    top: 6px;
-    right: 6px;
-}
-
-.botao form {
-    width: 380px;
-    max-width: 100%;
-    position: relative;
-}
-
-.botao form input:first-child {
-    display: inline-block;
-    width: 100%;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid #f9004d;
-    outline: none;
-    border-radius: 30px;
-}
-
-.botao form input:last-child {
-    position: absolute;
-    display: inline-block;
-    outline: none;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: #f9004d;
-    color: white;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top: 6px;
-    right: 6px;
+.contatos {
+    display: flex;
+    justify-content: center;
+    padding: 10;
+    margin: 20px;
 }
